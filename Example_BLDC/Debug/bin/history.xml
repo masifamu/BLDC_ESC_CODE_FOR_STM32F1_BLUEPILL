@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_BLDC.map -O1 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\Example_BLDC -TC:\CooCox\CoIDE\configuration\ProgramData\Example_BLDC/arm-gcc-link.ld -g">
+      <target file="Example_BLDC.elf" lastModified="175da9ab29f">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="175da9aa86b"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="175da9aa8cf"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="175da9aa929"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="175da9aa9bc"/>
+         <source file="..\obj\main.o" lastModified="175da9aaa47"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="175da9aaaec"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="175da9aab54"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="175da9aac0d"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="175da9aacbe"/>
+         <source file="..\obj\syscalls.o" lastModified="175da9aad1d"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="175da9aad8b"/>
+         <source file="..\obj\bldc.o" lastModified="175da9aae71"/>
+         <source file="..\obj\misc.o" lastModified="175da9aaee9"/>
+      </target>
+   </processor>
+</history>
